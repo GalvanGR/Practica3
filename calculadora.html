@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<style >
+		 .main .post{
+		 		
+  				width: 100%;
+  				
+				background-image: url("img/calcu.png");
+				 background-position-x:center;
+  				background-position-y:center;
+  				background-repeat: no-repeat;
+  				background-size: 400px;
+  		}
+  			
+		form p{
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 30px;
+
+		}
+		input[type="text"]{
+			width: 100%;
+			margin-bottom: 20px;
+			padding: 20px;
+			text-align: center;
+			
+		
+			
+		}
+		form .btn{
+			width: 100%;
+
+			background: #cf5c36;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			font-size: 16px;
+			text-align: center;
+			padding: 20px;
+			display: inline-block;
+			text-decoration: none;
+
+		}
+
+
+	</style>
+</head>
+<body>
+
+
+
+
+<body>
+	<div class="contenedor">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="calculadora.html">Calculadora</a></li>
+					<li><a href="registrarse.html">Registrarse</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<section class="main">
+			
+			<section class="post">
+				
+					<form action="" >
+						<input type="text" id="numero1">
+						<br>
+						<p>+</p>
+						<br>
+						<input type="text" id="numero2">
+						<br>
+						<p>=</p>
+						<br>
+						<input type="text" id="resultado" readonly>
+						<br>
+						<input type="button"  onclick="suma()" class="btn" value="Obtener resultado" >
+					</form>					
+				
+			</section>
+
+		</section>
+		<aside>
+			<div class="widget">
+				<h3 class="titulo">Proximas salidas</h3>
+				<ul>
+						<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+						<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+						<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+						<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+						<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+					</ul>
+			</div>
+			<div class="widget">
+				<h3 class="titulo">Información</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. </p>
+			</div>
+		</aside>
+		<footer>
+			<p>Alhelí G@lv@n 2022- Derechos reservados- </p>
+		</footer>
+	</div>
+
+
+<script src="js/acciones.js"></script>
+
+</body>
+</html>
